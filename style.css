@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Jua', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    background-image: linear-gradient(to bottom, black, yellow);
+}
+
+.dark {
+    background-image: linear-gradient(to bottom, #1A237E, #6A1B9A, #263238);
+}
+
+.dark, .dark * {
+    color: white;
+}
+
+.light {
+    background-image: linear-gradient(to bottom, #FFF59D, #FFD180, #FFCCBC);
+}
+
+.light, .light * {
+    color: #212121;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+}
+
+.city-name {
+    font-size: 3em;
+    text-transform: uppercase;
+    margin-top: 3em;
+    letter-spacing: 10px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+i.wi {
+    font-size: 15vh;
+    margin-bottom: 4vh;
+    margin-top: 4vh;
+}
+
+.main {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main > * {
+    margin: 0;
+}
+
+.deg {
+    position: absolute;
+    top: 0;
+    right: -6vh;
+}
+
+.main h1 {
+    font-size: 15vh;
+    position: relative;
+}
+
+.main h3 {
+    font-size: 5vh;
+    letter-spacing: 2px;
+}
+
+.main h5 {
+    font-size: 3.2vh;
+}
